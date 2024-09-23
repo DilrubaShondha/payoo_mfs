@@ -23,12 +23,12 @@
                   <div class="divider"></div>
                  <!-- balance section ends -->
                   <!-- user action button -->
-                  <button class="btn btn-lg">Add Money</button>
-                  <button class="btn btn-lg">Cash Out</button>
+                  <button id="show_addmoney" class="btn btn-lg">Add Money</button>
+                  <button id="show_cashout" class="btn btn-lg">Cash Out</button>
                   <!-- user action button -->
                   <div class="divider"></div>
                   <!-- add money form starts -->
-                  <form class="card-body">
+                  <form id="addmoney_form" class="card-body">
                     <div class="form-control">
                       <label class="label">
                         <span class="label-text">amount</span>
@@ -47,7 +47,7 @@
                   </form>
                    <!-- add money form ends -->
                     <!-- cash out form starts -->
-                  <form class="card-body">
+                  <form id="cashout_form" class="card-body hidden">
                     <div class="form-control">
                       <label class="label">
                         <span class="label-text">amount</span>
@@ -71,5 +71,6 @@
     </main>
 <script src="./home.js"></script>
 <script src="./cashOut.js"></script>
+<script src="./feature.js"></script>
 </body>
 </html>
